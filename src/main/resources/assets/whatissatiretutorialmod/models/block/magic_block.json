@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "whatissatiretutorialmod:block/magic_block"
+  }
+}

@@ -1,6 +1,11 @@
 {
   "item.whatissatiretutorialmod.bismuth": "Bismuth",
   "item.whatissatiretutorialmod.raw_bismuth": "Raw Bismuth",
+  "item.whatissatiretutorialmod.chisel": "Chisel",
   "block.whatissatiretutorialmod.bismuth_block": "Block of Bismuth",
-  "block.whatissatiretutorialmod.bismuth_ore": "Bismuth Ore"
+  "block.whatissatiretutorialmod.bismuth_ore": "Bismuth Ore",
+  "block.whatissatiretutorialmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+  "block.whatissatiretutorialmod.magic_block": "Magic Block",
+  "creativetab.whatissatiretutorialmod.bismuth_items": "Bismuth Items",
+  "creativetab.whatissatiretutorialmod.bismuth_blocks": "Bismuth Blocks"
 }

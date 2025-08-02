@@ -1,6 +1,7 @@
 package com.whatissatire.tutorialmod.block;
 
 import com.whatissatire.tutorialmod.TutorialMod;
+import com.whatissatire.tutorialmod.block.custom.MagicBlock;
 import com.whatissatire.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -32,6 +33,20 @@ public class ModBlocks {
                             .strength(3f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)
+            )
+    );
+    public static final DeferredBlock<Block> BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)
+            )
+    );
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
             )
     );
 
