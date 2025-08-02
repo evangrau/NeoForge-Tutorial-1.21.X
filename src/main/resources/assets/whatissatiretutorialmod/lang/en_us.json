@@ -1,4 +1,6 @@
 {
   "item.whatissatiretutorialmod.bismuth": "Bismuth",
-  "item.whatissatiretutorialmod.raw_bismuth": "Raw Bismuth"
+  "item.whatissatiretutorialmod.raw_bismuth": "Raw Bismuth",
+  "block.whatissatiretutorialmod.bismuth_block": "Block of Bismuth",
+  "block.whatissatiretutorialmod.bismuth_ore": "Bismuth Ore"
 }
