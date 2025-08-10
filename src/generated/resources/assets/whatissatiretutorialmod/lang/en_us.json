@@ -1,0 +1,18 @@
+{
+  "block.whatissatiretutorialmod.bismuth_block": "Bismuth Block",
+  "block.whatissatiretutorialmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+  "block.whatissatiretutorialmod.bismuth_ore": "Bismuth Ore",
+  "block.whatissatiretutorialmod.magic_block": "Magic Block",
+  "creativetab.whatissatiretutorialmod.bismuth_blocks": "Bismuth Blocks",
+  "creativetab.whatissatiretutorialmod.bismuth_items": "Bismuth Items",
+  "item.whatissatiretutorialmod.bismuth": "Bismuth",
+  "item.whatissatiretutorialmod.chisel": "Chisel",
+  "item.whatissatiretutorialmod.frostfire_ice": "Frostfire Ice",
+  "item.whatissatiretutorialmod.radish": "Radish",
+  "item.whatissatiretutorialmod.raw_bismuth": "Raw Bismuth",
+  "item.whatissatiretutorialmod.starlight_ashes": "Starlight Ashes",
+  "tooltip.whatissatiretutorialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.whatissatiretutorialmod.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.whatissatiretutorialmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.whatissatiretutorialmod.radish.tooltip": "Tastes really great!"
+}

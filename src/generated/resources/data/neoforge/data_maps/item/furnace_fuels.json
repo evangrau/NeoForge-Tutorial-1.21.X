@@ -1,5 +1,8 @@
 {
   "values": {
+    "whatissatiretutorialmod:frostfire_ice": {
+      "burn_time": 2400
+    },
     "whatissatiretutorialmod:starlight_ashes": {
       "burn_time": 1200
     }
