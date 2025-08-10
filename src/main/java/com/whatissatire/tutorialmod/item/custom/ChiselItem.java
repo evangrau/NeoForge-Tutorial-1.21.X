@@ -1,6 +1,7 @@
 package com.whatissatire.tutorialmod.item.custom;
 
 import com.whatissatire.tutorialmod.block.ModBlocks;
+import com.whatissatire.tutorialmod.component.ModDataComponents;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -16,6 +17,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
 
@@ -45,6 +47,7 @@ public class ChiselItem extends Item {
                  level.setBlockAndUpdate(context.getClickedPos(), CHISEL_MAP.get(clickedBlock).defaultBlockState());
                  context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(), item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
                  level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                 context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }
         }
 
@@ -58,6 +61,11 @@ public class ChiselItem extends Item {
         } else {
             tooltipComponents.add(Component.translatable("tooltip.whatissatiretutorialmod.chisel"));
         }
+
+        if (stack.get(ModDataComponents.COORDINATES) != null) {
+            tooltipComponents.add(Component.literal(MessageFormat.format("Last Block changed at {0}", stack.get(ModDataComponents.COORDINATES))));
+        }
+
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }

@@ -1,6 +1,7 @@
 package com.whatissatire.tutorialmod;
 
 import com.whatissatire.tutorialmod.block.ModBlocks;
+import com.whatissatire.tutorialmod.component.ModDataComponents;
 import com.whatissatire.tutorialmod.item.ModCreativeModeTabs;
 import com.whatissatire.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -44,6 +45,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
