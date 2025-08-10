@@ -29,6 +29,15 @@ public class ModLanguageProvider extends LanguageProvider {
         addBlock(ModBlocks.BISMUTH_ORE, "Bismuth Ore");
         addBlock(ModBlocks.BISMUTH_DEEPSLATE_ORE, "Bismuth Deepslate Ore");
         addBlock(ModBlocks.MAGIC_BLOCK, "Magic Block");
+        addBlock(ModBlocks.BISMUTH_STAIRS, "Bismuth Stairs");
+        addBlock(ModBlocks.BISMUTH_SLAB, "Bismuth Slab");
+        addBlock(ModBlocks.BISMUTH_PRESSURE_PLATE, "Bismuth Pressure Plate");
+        addBlock(ModBlocks.BISMUTH_BUTTON, "Bismuth Button");
+        addBlock(ModBlocks.BISMUTH_FENCE, "Bismuth Fence");
+        addBlock(ModBlocks.BISMUTH_FENCE_GATE, "Bismuth Fence Gate");
+        addBlock(ModBlocks.BISMUTH_WALL, "Bismuth Wall");
+        addBlock(ModBlocks.BISMUTH_DOOR, "Bismuth Door");
+        addBlock(ModBlocks.BISMUTH_TRAPDOOR, "Bismuth Trapdoor");
 
         // Creative Tabs
         add(MessageFormat.format("creativetab.{0}.bismuth_items", TutorialMod.MOD_ID), "Bismuth Items");
