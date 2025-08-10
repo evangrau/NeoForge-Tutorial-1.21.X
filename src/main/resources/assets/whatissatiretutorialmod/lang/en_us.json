@@ -10,5 +10,9 @@
   "block.whatissatiretutorialmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
   "block.whatissatiretutorialmod.magic_block": "Magic Block",
   "creativetab.whatissatiretutorialmod.bismuth_items": "Bismuth Items",
-  "creativetab.whatissatiretutorialmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.whatissatiretutorialmod.bismuth_blocks": "Bismuth Blocks",
+  "tooltip.whatissatiretutorialmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.whatissatiretutorialmod.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.whatissatiretutorialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.whatissatiretutorialmod.radish.tooltip": "Tastes really great!"
 }
