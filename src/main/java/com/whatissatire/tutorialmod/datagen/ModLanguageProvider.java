@@ -38,6 +38,7 @@ public class ModLanguageProvider extends LanguageProvider {
         addBlock(ModBlocks.BISMUTH_WALL, "Bismuth Wall");
         addBlock(ModBlocks.BISMUTH_DOOR, "Bismuth Door");
         addBlock(ModBlocks.BISMUTH_TRAPDOOR, "Bismuth Trapdoor");
+        addBlock(ModBlocks.BISMUTH_LAMP, "Bismuth Lamp");
 
         // Creative Tabs
         add(MessageFormat.format("creativetab.{0}.bismuth_items", TutorialMod.MOD_ID), "Bismuth Items");

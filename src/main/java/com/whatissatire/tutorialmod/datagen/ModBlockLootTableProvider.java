@@ -37,6 +37,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
         dropSelf(ModBlocks.BISMUTH_WALL.get());
         dropSelf(ModBlocks.BISMUTH_TRAPDOOR.get());
+        dropSelf(ModBlocks.BISMUTH_LAMP.get());
 
         add(ModBlocks.BISMUTH_ORE.get(),
                 block -> createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
