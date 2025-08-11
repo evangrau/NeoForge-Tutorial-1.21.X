@@ -33,6 +33,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_AXE);
                         output.accept(ModItems.BISMUTH_HOE);
                         output.accept(ModItems.BISMUTH_HAMMER);
+                        output.accept(ModItems.BISMUTH_HELMET);
+                        output.accept(ModItems.BISMUTH_CHESTPLATE);
+                        output.accept(ModItems.BISMUTH_LEGGINGS);
+                        output.accept(ModItems.BISMUTH_BOOTS);
                     })
                     .build()
     );

@@ -29,6 +29,10 @@ public class ModLanguageProvider extends LanguageProvider {
         addItem(ModItems.BISMUTH_AXE, "Bismuth Axe");
         addItem(ModItems.BISMUTH_HOE, "Bismuth Hoe");
         addItem(ModItems.BISMUTH_HAMMER, "Bismuth Hammer");
+        addItem(ModItems.BISMUTH_HELMET, "Bismuth Helmet");
+        addItem(ModItems.BISMUTH_CHESTPLATE, "Bismuth Chestplate");
+        addItem(ModItems.BISMUTH_LEGGINGS, "Bismuth Leggings");
+        addItem(ModItems.BISMUTH_BOOTS, "Bismuth Boots");
 
         // Blocks
         addBlock(ModBlocks.BISMUTH_BLOCK, "Bismuth Block");
