@@ -3,6 +3,7 @@ package com.whatissatire.tutorialmod.item;
 import com.whatissatire.tutorialmod.TutorialMod;
 import com.whatissatire.tutorialmod.item.custom.ChiselItem;
 import com.whatissatire.tutorialmod.item.custom.FuelItem;
+import com.whatissatire.tutorialmod.item.custom.HammerItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -49,10 +50,13 @@ public class ModItems {
                     .attributes(ShovelItem.createAttributes(ModToolTiers.BISMUTH, 1.5f, -3.0f))));
     public static final DeferredItem<AxeItem> BISMUTH_AXE = ITEMS.register("bismuth_axe",
             () -> new AxeItem(ModToolTiers.BISMUTH, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.BISMUTH, 6, -3.2f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.BISMUTH, 6f, -3.2f))));
     public static final DeferredItem<HoeItem> BISMUTH_HOE = ITEMS.register("bismuth_hoe",
             () -> new HoeItem(ModToolTiers.BISMUTH, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.BISMUTH, 0f, -3.0f))));
+    public static final DeferredItem<HammerItem> BISMUTH_HAMMER = ITEMS.register("bismuth_hammer",
+            () -> new HammerItem(ModToolTiers.BISMUTH, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 7f, -3.5f))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
