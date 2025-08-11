@@ -23,6 +23,11 @@ public class ModLanguageProvider extends LanguageProvider {
         addItem(ModItems.RADISH, "Radish");
         addItem(ModItems.FROSTFIRE_ICE, "Frostfire Ice");
         addItem(ModItems.STARLIGHT_ASHES, "Starlight Ashes");
+        addItem(ModItems.BISMUTH_SWORD, "Bismuth Sword");
+        addItem(ModItems.BISMUTH_PICKAXE, "Bismuth Pickaxe");
+        addItem(ModItems.BISMUTH_SHOVEL, "Bismuth Shovel");
+        addItem(ModItems.BISMUTH_AXE, "Bismuth Axe");
+        addItem(ModItems.BISMUTH_HOE, "Bismuth Hoe");
 
         // Blocks
         addBlock(ModBlocks.BISMUTH_BLOCK, "Bismuth Block");
